@@ -1,0 +1,33 @@
+main {
+    border: 10px solid #444444;
+}
+.banner {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+.gallery {
+    width: 100%;
+    background-color: #6A6E70; 
+}
+#desk_img {
+    width: 20%;
+    height: 20%;
+    background-color: #6A6E70;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#graphic_img {
+    width: 20%;
+    height: 20%;
+    background-color: #6A6E70;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#person_img {
+    width: 20%;
+    height: 20%;
+    background-color: #6A6E70;
+    border-radius: 50%;
+    margin: 0 auto;
+}
