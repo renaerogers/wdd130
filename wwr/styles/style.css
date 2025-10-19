@@ -1,15 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+header {
+    width: 100%;
+}
+.logo {
+    width: 50%;
+    height: 5%;
+    float: left;
+    padding-left: 20%;
+    margin: 0 auto;
+}
 nav a{
+    width: 50%;
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 5%;
+    padding-top: 10%;
+}
+nav a:hover {
+    background-color: #2E282A;
+    color: white;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: white
+}
+#hero-msg h1 {
+    font-family: 'Pacifico', 'Brush Script MT', Verdana, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
+#hero-img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
 }
 .button-box {
     text-align: center;
@@ -18,19 +47,15 @@ main section {
     text-align: center;
 }
 #background {
-    height: 725px;
-        background-color: #2E282A;
-
+    width: 100%;
+    height: 50px;
+    background-color: #2E282A;
 }
 body {
     background-color: #2E282A;
 }
 header {
     background-color: #2E282A;
-}
-nav a:hover {
-    background-color: #2E282A;
-    color: white;
 }
 .book, .join {
     background-color: #2E282A;
@@ -41,21 +66,92 @@ nav a:hover {
     background-color: #2E282A;
     color: white;
 }
+.home-title {
+    color: white;
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+.home-grid {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.rivers-card {
+    width: 20%;
+    color: white;
+    float: left;
+    padding: 5%;
+}
+.rivers-card h2, .rivers-card .card-img {
+    width: 100%;
+    text-align: center;
+    font-family: 'Pacifico', 'Brush Script MT', Verdana, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
+.camping-card {
+    width: 20%;
+    color: white;
+    float: left;
+    padding: 5%;
+}
+.camping-card h2, .camping-card .card-img {
+    width: 100%;
+    text-align: center;
+    font-family: 'Pacifico', 'Brush Script MT', Verdana, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
+.rapids-card {
+    width: 20%;
+    color: white;
+    float: left;
+    padding: 5%;
+}
+.rapids-card h2, .rapids-card .card-img {
+    width: 100%;
+    text-align: center;
+    font-family: 'Pacifico', 'Brush Script MT', Verdana, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
 .msg {
+    width: 40%;
     background-color: #2E282A;
+    float: left;
+    display: block;
+    padding: 5%;
+    margin-top: 6%;
 }
 .msg h2 {
     color: white;
+    font-family: 'Pacifico', 'Brush Script MT', Verdana, Tahoma, sans-serif;
+    font-size: 1.4em;
 }
 .msg p {
     color: white;
 }
+.mountains {
+    width: 50%;
+    float: left;
+    display: block;
+    margin-bottom: 20px;
+}
 footer {
-    background-color: #2E282A;
-    color: white;
+    width: 100%;
+    background-color: #17BEBB;
+    color: #2E282A;
+    text-align: center;
+    line-height: 20%;
+    display: inline-block;
+    margin: 5px auto;
 }
 footer a {
-    color: white;
+    color: #2E282A;;
     text-decoration: none;
 }
 footer a:hover {
@@ -66,22 +162,4 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline; 
-}
-.home-title {
-    color: white;
-}
-.icon {
-    width: 80px;
-}
-.logo {
-    width: 80px;
-}
-.rivers-card {
-    color: white;
-}
-.camping-card {
-    color: white;
-}
-.rapids-card {
-    color: white;
 }
