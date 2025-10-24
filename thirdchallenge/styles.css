@@ -1,0 +1,36 @@
+.home-grid {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+    height: 50%;
+    padding: 8%;
+}
+.left {
+    text-align: center;
+    align-self: center;
+    background-color: white;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+.right {
+    text-align: center;
+    align-self: center;
+    background-color: grey;
+    grid-column-start: 2;
+}
+h1 {
+    font-size: 10em;
+    grid-row: inherit;
+}
+#tart_text {
+    z-index: 1;
+    grid-row: inherit;
+}
+#cherries {
+    z-index: 1;
+    grid-row: inherit;
+}
+h3 {
+    color: darkred;
+    font-size: 7em;
+}
