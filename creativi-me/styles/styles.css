@@ -221,7 +221,7 @@ footer .social img {
     width: 100%;
     /*grid-row: 6/7; */
     display: grid;
-    grid-template-columns: 2fr 6fr 2f;
+    grid-template-columns: 2fr 6fr 2fr;
     /*margin-top: 100px;
     margin-bottom: 100px;*/
 }
@@ -259,7 +259,7 @@ footer .social img {
     width: 100%; 
     /*grid-row: 10/11; */
     display: grid;
-    grid-template-columns: 2.5fr 6fr 2.5f;
+    grid-template-columns: 2.5fr 6fr 2.5fr;
     margin: 100px 20px 100px 20px;
 }
 .interest p {
