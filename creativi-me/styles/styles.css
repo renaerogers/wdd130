@@ -52,7 +52,6 @@ nav a:hover {
     font-size: 3.0em;
 }
 #home-hero h4 {
-    font-family: 'Lato', Verdana, Tahoma, sans-serif;
     grid-row: 3/4;
     margin-top: -10px;
     font-size: 1.2em;
@@ -170,7 +169,6 @@ footer .social img {
     font-size: 3.0em;
 }
 #action-hero h4 {
-    font-family: 'Lato', Verdana, Tahoma, sans-serif;
     grid-row: 3/4;
     margin-top: -10px;
     font-size: 1.2em;
@@ -284,7 +282,6 @@ footer .social img {
     font-size: 3.0em;
 }
 #freedom-hero h4 {
-    font-family: 'Lato', Verdana, Tahoma, sans-serif;
     grid-row: 3/4;
     margin-top: -10px;
     font-size: 1.2em;
