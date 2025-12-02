@@ -153,3 +153,126 @@ footer .social img {
     padding-top: 15px;
     width: 50px;
 }
+
+#action-hero {
+    width: 100%;
+    color: #103F6E;
+    background-color: #A9DEF9;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 0.75fr auto 0.5fr 0.5fr;
+    margin-top: -9px;
+}
+#action-hero h1 {
+    font-family: "Momo Signature", 'Times New Roman', Times, serif;
+    grid-row: 2/3;
+    font-size: 3.0em;
+}
+#action-hero h4 {
+    grid-row: 3/4;
+    margin-top: -10px;
+    font-size: 1.2em;
+}
+.action-content {
+    width: 100%;
+    font-family: 'Lato', Verdana, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: #4A006F;
+    background-color: #E4AAFF;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    /*grid-template-columns: 1fr 0.5fr 4fr 1.5fr 4fr 0.5fr 1f; */
+    grid-template-rows: 30px 1fr 0.75fr auto 0.75fr 2fr 0.75fr auto 0.75fr 2fr 30px;
+    margin: 0 auto;
+}
+#hook {
+    /*grid-column: 3/5; */
+    grid-row: 2/3;
+}
+.math {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 4.5fr 1.5fr 4fr 1fr;
+    padding: 10px;
+    margin: 0 auto;
+}
+.math img {
+    width: 100%;
+    grid-column: 2/3;
+    padding: 10px;
+}
+.math p {
+    grid-column: 4/5;
+    padding: 10px;
+}
+.critically {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 2fr auto 2f;
+    padding: 10px;
+    margin: 0 auto;
+}
+.critically p {
+    grid-column: 2/3;
+    padding: 10px;
+}
+.potential {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-row: 8/9;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1.5fr 4.5fr 1.5f;
+    padding: 10px;
+    margin: 0 auto;
+}
+.potential p {
+    grid-column: 2/3;
+    padding: 10px;
+}
+.potential img {
+    width: 100%;
+    grid-column: 4/5;
+    padding: 10px;
+}
+.interest {
+    text-align: center;
+    justify-content: center;
+    width: 100%; 
+    grid-row: 10/11;
+    display: grid;
+    grid-template-columns: 2.5fr auto 2.5f;
+    padding: 10px;
+    margin: 0 auto;
+}
+.interest p {
+    grid-column: 2/3;
+    padding: 10px;
+}
+
+#freedom-hero {
+    width: 100%;
+    color: #103F6E;
+    background-color: #A9DEF9;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 0.75fr auto 0.5fr 0.5fr;
+    margin-top: -9px;
+}
+#freedom-hero h1 {
+    font-family: "Momo Signature", 'Times New Roman', Times, serif;
+    grid-row: 2/3;
+    font-size: 3.0em;
+}
+#freedom-hero h4 {
+    grid-row: 3/4;
+    margin-top: -10px;
+    font-size: 1.2em;
+}
