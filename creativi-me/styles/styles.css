@@ -176,81 +176,91 @@ footer .social img {
 .action-content {
     width: 100%;
     font-family: 'Lato', Verdana, Tahoma, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #4A006F;
     background-color: #E4AAFF;
     text-align: center;
     justify-content: center;
     display: grid;
     /*grid-template-columns: 1fr 0.5fr 4fr 1.5fr 4fr 0.5fr 1f; */
-    grid-template-rows: 30px 1fr 0.75fr auto 0.75fr 2fr 0.75fr auto 0.75fr 2fr 30px;
+    /*grid-template-rows: 30px 1fr 0.75fr auto 0.75fr 2fr 0.75fr auto 0.75fr 2fr 30px; */
     margin: 0 auto;
 }
 #hook {
     /*grid-column: 3/5; */
-    grid-row: 2/3;
+    /*grid-row: 2/3; */
+    text-align: center;
+    margin: 100px 20px 100px 20px;
 }
 .math {
     text-align: center;
     justify-content: center;
     width: 100%;
-    grid-row: 4/5;
+    /*grid-row: 4/5; */
     display: grid;
     grid-template-columns: 1fr 4.5fr 1.5fr 4fr 1fr;
-    padding: 10px;
+    grid-template-rows: 30px 0.5fr auto 0.5fr 30px;
     margin: 0 auto;
 }
 .math img {
     width: 100%;
     grid-column: 2/3;
+    grid-row: 2/5;
     padding: 10px;
 }
 .math p {
     grid-column: 4/5;
+    grid-row: 3/4;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .critically {
     text-align: center;
     justify-content: center;
     width: 100%;
-    grid-row: 6/7;
+    /*grid-row: 6/7; */
     display: grid;
-    grid-template-columns: 2fr auto 2f;
-    padding: 10px;
-    margin: 0 auto;
+    grid-template-columns: 2fr 6fr 2f;
+    /*margin-top: 100px;
+    margin-bottom: 100px;*/
 }
 .critically p {
     grid-column: 2/3;
     padding: 10px;
+    margin: 100px 40px 100px 40px;
 }
 .potential {
     text-align: center;
     justify-content: center;
     width: 100%;
-    grid-row: 8/9;
+    /*grid-row: 8/9; */
     display: grid;
-    grid-template-columns: 1fr 4fr 1.5fr 4.5fr 1.5f;
-    padding: 10px;
+    grid-template-columns: 1fr 4fr 1.5fr 4.5fr 1fr;
+    grid-template-rows: 30px 0.5fr auto 0.5fr 30px;
     margin: 0 auto;
 }
 .potential p {
     grid-column: 2/3;
+    grid-row: 3/4;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .potential img {
     width: 100%;
     grid-column: 4/5;
+    grid-row: 2/5;
     padding: 10px;
 }
 .interest {
     text-align: center;
     justify-content: center;
     width: 100%; 
-    grid-row: 10/11;
+    /*grid-row: 10/11; */
     display: grid;
-    grid-template-columns: 2.5fr auto 2.5f;
-    padding: 10px;
-    margin: 0 auto;
+    grid-template-columns: 2.5fr 6fr 2.5f;
+    margin: 100px 20px 100px 20px;
 }
 .interest p {
     grid-column: 2/3;
