@@ -286,3 +286,93 @@ footer .social img {
     margin-top: -10px;
     font-size: 1.2em;
 }
+
+.freedom-intro {
+    color: #4A006F;
+    background-color: #E4AAFF;
+    display: grid;
+    grid-template-columns: 1fr 4.5fr 1.5fr 4fr 1fr;
+    grid-template-rows: 30px 0.5fr auto 0.25fr auto 0.5fr 30px;
+    margin: 0 auto;
+}
+#stress {
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-family: 'Lato', Verdana, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#outlet {
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-family: 'Lato', Verdana, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.freedom-intro img {
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 2/7;
+    padding: 10px;
+}
+.speech {
+    width: 100%;
+    color: #103F6E;
+    background-color: #A9DEF9;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-family: 'Lato', Verdana, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 20px auto 0.25fr auto 0.25fr auto 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto; 
+}
+#speech-a {
+    grid-row: 2/3;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+#speech-b {
+    grid-row: 4/5;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+#speech-c {
+    grid-row: 6/7;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.freedom-gallery{
+    width: 100%;
+    background-color: #E4AAFF;
+    transition: transform .75s;
+    display: grid;
+    grid-template-columns: 1fr 4fr 0.5fr 3.5fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.freedom-gallery img:hover {
+    opacity: .9;
+    transform: scale(1.1); 
+}
+#waffles {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#plant {
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 1/4;
+}
